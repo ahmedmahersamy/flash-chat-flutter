@@ -1,9 +1,8 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
 
 # Flash Chat ⚡️
 
-## Our Goal
+## Goal
 
 The objective is to learn how to incorporate Firebase into our Flutter apps. by using Firebase Cloud Firestore as well as the Firebase authentication package to equip our app with a cloud based NoSQL database and secure authentication methods. 
 
@@ -26,5 +25,3 @@ a modern messaging app where users can sign up and log in to chat.
 - use Firebase Cloud Firestore to store and retrieve data on the fly.
 
 
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at 
