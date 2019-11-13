@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "670406011177",
+    "firebase_url": "https://flash-chat-63838.firebaseio.com",
+    "project_id": "flash-chat-63838",
+    "storage_bucket": "flash-chat-63838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670406011177:android:494734b8076bd75ee6af38",
+        "android_client_info": {
+          "package_name": "co.clever.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670406011177-lk1muhe8lnf4m3qipccepb5oo6pqjgb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTVXiqOmH0Kir5FJ8mRJmiAn5Sq5lNI0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670406011177-lk1muhe8lnf4m3qipccepb5oo6pqjgb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
