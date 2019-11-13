@@ -99,13 +99,16 @@ class _ChatScreenState extends State<ChatScreen> {
                   ),
                   FlatButton(
                     onPressed: () {
-                      messageTextController.clear();
+
                       //Implement send functionality.
-                      _firestore.collection('messages').add({
-                        'text':messageText,
-                        'sender' : loggedInUser.email,
-                        'timeStamp': Timestamp.now()
-                      });
+                      if(messageText.isNotEmpty && messageTextController.text.isNotEmpty) {
+                        _firestore.collection('messages').add({
+                          'text': messageText,
+                          'sender': loggedInUser.email,
+                          'timeStamp': Timestamp.now()
+                        });
+                        messageTextController.clear();
+                      }
                     },
                     child: Text(
                       'Send',
