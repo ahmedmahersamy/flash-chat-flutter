@@ -24,4 +24,7 @@ a modern messaging app where users can sign up and log in to chat.
 - use ListViews to build scrolling views.
 - use Firebase Cloud Firestore to store and retrieve data on the fly.
 
+## Email : ahmedmaher@yahoo.com
+## password : 123456
+
 
